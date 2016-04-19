@@ -1,0 +1,81 @@
+// Here's where you should write your functions
+
+function exampleFunction() {
+	popup("A Popup Message", "Hello there!");
+    log("A message you can see in the preview's Activity Log window");
+}
+
+ 
+
+function module102() {
+    af.openLinkInWebBrowser("https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101701_1&cmp_tab_id=_255677_1&editMode=true&mode=cpview");
+} 
+
+
+
+function module103() {
+    af.openLinkInWebBrowser("https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101702_1&cmp_tab_id=_255679_1&editMode=true&mode=cpview");
+} 
+
+function module104() {
+    af.openLinkInWebBrowser("https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101703_1&cmp_tab_id=_255681_1&editMode=true&mode=cpview");
+}
+
+function module202() {
+    af.openLinkInWebBrowser("https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101702_1&cmp_tab_id=_255679_1&editMode=true&mode=cpview");
+}
+
+
+function module203() {
+    af.openLinkInWebBrowser("https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101706_1&cmp_tab_id=_255687_1&editMode=true&mode=cpview");
+}
+
+function module204() {
+    af.openLinkInWebBrowser("https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101707_1&cmp_tab_id=_255689_1&editMode=true&mode=cpview");
+}
+
+function drnote102() {
+    af.childBrowser.showWebPage("https://tools.brighton.ac.uk/medical-school/anatomy/images/102-%20Dissection%20Session%201and2-%202015-16.pdf");
+}
+
+
+function drnote103() {
+    af.childBrowser.showWebPage("https://tools.brighton.ac.uk/medical-school/anatomy/images/103-Dissection%20Session%201to5%202015-16.pdf");
+}
+
+function drnote104() {
+   af.childBrowser.showWebPage("");
+}
+function drnote202() {
+   af.childBrowser.showWebPage("https://tools.brighton.ac.uk/medical-school/anatomy/drnotes/202%20-%20DR%20session%20notes%201to5%20-%202015-16.pdf");
+}
+
+function drnote203() {
+   af.childBrowser.showWebPage("");
+}
+
+function drnote204() {
+   af.childBrowser.showWebPage("");
+}
+
+function bsmsvids() {
+   af.openLinkInWebBrowser("http://blogs.brighton.ac.uk/bsmsvideos/wp-login.php?privacy=1&redirect_to=http%3A%2F%2Fblogs.brighton.ac.uk%2Fbsmsvideos%2F");
+}
+
+function youtube() {
+   af.openLinkInWebBrowser("https://www.youtube.com/channel/UC6_nP-gEsScgDjS7pTeUS_Q");
+}
+
+function nearpod() {
+   af.openLinkInWebBrowser("https://nearpod.com/");
+}
+
+function acland() {
+   af.openLinkInWebBrowser("http://aclandanatomy.com/");
+}
+
+function primal() {
+   af.openLinkInWebBrowser("https://primalpictures.com/");
+}
+
+
